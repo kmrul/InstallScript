@@ -14,7 +14,7 @@
 # ./odoo-install
 ################################################################################
 
-RANDOM_PORT = $RANDOM
+RANDOM_PORT=$RANDOM
 
 OE_USER="odoo${RANDOM_PORT}"
 OE_HOME="/$OE_USER"
